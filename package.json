@@ -1,0 +1,27 @@
+{
+  "name": "test_unitaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.10.2",
+    "babel": "^6.23.0",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
+    "@types/mocha": "^9.0.0",
+    "babel-jest": "^27.2.4",
+    "jest": "^27.2.4"
+  }
+}
